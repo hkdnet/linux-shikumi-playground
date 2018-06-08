@@ -1,2 +1,2 @@
-bin/foo: foo.c
-	gcc -o bin/foo -Wall foo.c
+bin/mmap: mmap.c
+	gcc -o bin/mmap -Wall mmap.c
