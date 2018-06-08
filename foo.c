@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
     fflush(stdout);
     system(command);
 
-    fd = open("/vagrant/testfile", O_RDWR);
+    fd = open("/tmp/testfile", O_RDWR);
 
     if(fd == -1) {
         err(EXIT_FAILURE, "open() failed");
